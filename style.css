@@ -17,7 +17,7 @@ body {
     border-radius: 50px;
     background: transparent;
     cursor: pointer;
-    transition: .3s ease-in-out;
+    transition: all 0.8s ease-in-out;
     position: relative;
     overflow: hidden;
 }
@@ -30,7 +30,7 @@ body {
     width: 200%;
     height: 200%;
     background: radial-gradient (circle, rgba(255, 255, 255 0.3), rgba(0, 255, 255, 0) 70%);
-    transition: 0.4s;
+    transition:all 0.4s;
     transform: scale (0);
 }
 
